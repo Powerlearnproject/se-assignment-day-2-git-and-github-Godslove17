@@ -389,6 +389,31 @@ Question 7
 
 Answer
 
+ The Role of Pull Requests in GitHub Workflow
+
+Pull requests are a fundamental mechanism in GitHub for collaborative development. They provide a structured way to propose changes to a repository and facilitate code review and collaboration among team members.
+
+ How GitHub Workflow Facilitates Code Review and Collaboration
+
+1. Centralized Code Repository: GitHub provides a centralized location for teams to store and manage their code. This makes it easy for everyone to access and contribute to the project.
+2. Version Control: Git, the underlying version control system used by GitHub, allows teams to track changes to their code over time. This makes it easy to revert to previous versions if necessary.
+3. Pull Request Mechanism: Pull requests allow developers to propose changes to the main branch of a repository. These changes can be reviewed and discussed by other team members before being merged.
+4. Comments and Discussions: Pull requests support comments and discussions, making it easy for team members to provide feedback and ask questions.
+5. Continuous Integration (CI): GitHub integrates with CI tools, which can automatically test and build code whenever a pull request is created. This helps to identify and fix issues early in the development process.
+
+Typical Steps Involved in Creating and Merging a Pull Request
+
+1. Create a Branch: Create a new branch from the main branch to isolate your changes.
+2. Make Changes: Implement the desired changes to your code.
+3. Commit Changes: Commit your changes to your local repository.
+4. Push Changes to Remote Repository: Push your branch to your remote GitHub repository.
+5. Create a Pull Request: Create a pull request from your branch to the main branch. Provide a clear description of the changes and their purpose.
+6. Review and Provide Feedback: Other team members can review your changes, provide feedback, and suggest improvements.
+7. Address Feedback: Make any necessary changes to your code based on the feedback received.
+8. Merge the Pull Request: Once the changes are approved, the pull request can be merged into the main branch.
+
+By following these steps, teams can effectively collaborate on projects, ensure code quality, and maintain a healthy development workflow.
+
 Question 8
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
